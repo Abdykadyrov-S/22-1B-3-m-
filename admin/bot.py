@@ -4,13 +4,13 @@ import os
 
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import BotCommand
-from app.handlers import router
+
+from app.handlers import router, bot
 
 
-token = os.environ.get('token')
-print(token)
+# token = os.environ.get('token')
+# print(token)
 
-bot = Bot(token="8126121670:AAF2IiYJx_V77baXIO2-6NBF0N-lARcdxEI")
 dp = Dispatcher()
 
 
